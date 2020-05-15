@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>디미고</title>
+        <meta charset="utf-8">
+        <style>
+            table {
+            width:80%;
+            border:2px solid #829fdd;
+            border-collapse:collapse;
+        }
+        th, td{
+            border:2px soild #ff2222;
+            padding:5px;
+            font-size:0.8em;
+        }
+        </style>
+    </head>
+
+    <body>
+     스마트문화앱콘텐츠제작
+     <!--table, tr, td, th-->
+
+     <!-- 표 제목 붙이는 figure, figcaption -->
+     <!-- thead, tbody, tfoot 태그를 사용하여 표의 구조를 정의한다-> 화면 낭독기를 통해 구조 알 수 있음 -->
+     <!-- 여러 열 묶어 스타일 지정하기 -->
+     <figure>     
+     <table border="1">
+        <colgroup>
+            <col>
+            <col span="3" style="background-color: indigo;">
+           </colgroup>
+         <!-- <caption><strong>디미고 학생 소개 페이지</strong><p>디미고 학생 연락처</p></caption> -->
+        <thead>
+         <tr>
+             <th>학번</th>
+             <td>3225</td>
+             <th>이름</th>
+             <td>윤하람</td>
+         </tr>
+        </thead>
+        <tbody>
+         <!--테이블 행 열 합치기 colspan, rowspan-->
+         <tr>
+             <th>연락처</th>
+             <td colspan="3">010-2687-0940</td>
+         </tr>
+        </tbody>
+        <tfoot>
+         <tr>
+             <th rowspan="2">취미</th>
+             <td>게임</td>
+             <th>특기</th>
+             <td>게임</td>
+         </tr>
+        </tfoot>
+
+     </table>   
+        <figcaption>디미고 소개 페이지</figcaption>
+     </figure>
+    </body>
+</html>
